@@ -13,6 +13,7 @@ import ProductPage from "views/ProductPage/ProductPage.jsx";
 import SectionsPage from "views/SectionsPage/SectionsPage.jsx";
 import ShoppingCartPage from "views/ShoppingCartPage/ShoppingCartPage.jsx";
 import SignupPage from "views/SignupPage/SignupPage.jsx";
+import Login from "dolorosa/views/Login.jsx";
 
 var indexRoutes = [
   { path: "/about-us", name: "AboutUsPage", component: AboutUsPage },
@@ -33,7 +34,8 @@ var indexRoutes = [
     component: ShoppingCartPage
   },
   { path: "/signup-page", name: "SignupPage", component: SignupPage },
-  { path: "/", name: "PresentationPage", component: PresentationPage }
+  { path: "/demo", name: "PresentationPage", component: PresentationPage },
+  { path: "/", name: "Login", component: Login }
 ];
 
 export default indexRoutes;
